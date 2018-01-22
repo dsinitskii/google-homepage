@@ -1,0 +1,10 @@
+body {
+    font-family: cursive;
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+header {
+    background-color: aqua;
+}

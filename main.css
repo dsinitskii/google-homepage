@@ -1,10 +1,35 @@
 body {
-    font-family: cursive;
+    font-family: sans-serif;
+}
+ul {
+    text-decoration: none;
+    height: auto;
 }
 li {
+    padding: 25px;
+    text-decoration: none;
     list-style-type: none;
     display: inline-block;
+    vertical-align: bottom;
 }
 header {
+    background-color: grey;
+    height: 100px;
+    position: relative;
+}
+.leftNav {
+    float: left;
+}
+.rightNav {
+    float: left;
+}
+.moreAppsIcon {
+    width: 30px;
+    height: 30px;
     background-color: aqua;
+    right: 0;
+    top: calc(50% - 30px / 2);
+    vertical-align: bottom;
+    position: absolute;
+    
 }

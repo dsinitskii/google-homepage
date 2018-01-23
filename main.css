@@ -4,7 +4,7 @@ body {
     position: relative;
     margin: 0;
     padding: 0;
-    width: 960px;
+    width: 100%;
     margin: 0 auto;
 }
 ul {
@@ -24,13 +24,18 @@ li {
 header {
 /*    background-color: grey;*/
     height: 60px;
+    display: block;
+    z-index: 100;
 }
 .leftNav {
     float: left;
     margin: 0 auto;
+    left: 0;
+    position: absolute;
     
     
 }
+
 .rightNav {
     float: right;
     margin-right: 150px;
@@ -66,4 +71,35 @@ header {
     border-radius: 50%;
     position: absolute;
 }
+input[type=text]{
+    display: inline-block;
+    margin: 0 auto;
+    width: 500px;
+    padding: 5px;
+    height: 30px;
+    top: 400px;
+    margin: 0 175px;
 
+}
+.gdoodle {
+text-align: center;
+    margin: 0 0px 35px;
+    position: relative;
+    
+}
+.gdoodle img {
+    margin: 0 150px 35px;
+}
+/*
+@media (min-width: 900px) {
+    header {
+        display: block;
+    }
+}
+*/
+@media (max-width: 700px) {
+    header {
+        visibility: hidden;  
+    }
+
+}
